@@ -99,7 +99,7 @@ pip install transformers sentence-transformers pinecone-client pypdf python-docx
    - A task in natural language processing where a system is designed to retrieve relevant information from a corpus or database and use it to answer a user’s question. In this project, LangChain facilitates this process by integrating document retrieval with question answering using a generative model.
 
 10. **Text Embedding**
-   - The process of converting text (a word, sentence, or document) into a vector of numbers. This transformation is performed using models like Sentence-BERT or other transformers to capture semantic meaning in a high-dimensional space. These embeddings enable efficient matching of similar text segments during retrieval tasks.
+    - The process of converting text (a word, sentence, or document) into a vector of numbers. This transformation is performed using models like Sentence-BERT or other transformers to capture semantic meaning in a high-dimensional space. These embeddings enable efficient matching of similar text segments during retrieval tasks.
     
-11. **RecursiveCharacterTextSplitter**
-   - A text splitter used in LangChain to split long documents into smaller chunks. It does so by recursively splitting the text based on a character length threshold, ensuring that each chunk is manageable and maintains context for semantic understanding.
+12. **RecursiveCharacterTextSplitter**
+    - A text splitter used in LangChain to split long documents into smaller chunks. It does so by recursively splitting the text based on a character length threshold, ensuring that each chunk is manageable and maintains context for semantic understanding.
